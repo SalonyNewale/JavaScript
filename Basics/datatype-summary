@@ -1,4 +1,4 @@
-//primitive type
+//primitive type stored in stack memory gives a copy of value or variable
 
 // 7 types : string, number, boolean, null, undefined, symbol, BigInt
 
@@ -6,7 +6,7 @@
 //types of values during runtime
 
 
-//Reference (Non Primitive) type
+//Reference (Non Primitive) type stored in heap memory gives reference of the value
 
 //array, Objects, Functions
 
