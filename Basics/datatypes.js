@@ -1,4 +1,4 @@
-"use strict"; //treat all JS code as newer version 
+ "use strict"; //treat all JS code as newer version 
 
 //alert("hello") //we are using nodejs, not browser
 
@@ -12,3 +12,24 @@ let isLoggedIn = false
 //object 
 
 console.log(typeof "Salony");
+
+let score = "33aa";
+
+let getScore = Number(score)
+console.log(typeof score)
+console.log(typeof getScore);
+
+console.log(getScore);
+
+//"33" => 33
+//"33abc" => NaN
+//true => 1, false => 0
+
+let isLoggedIn1 = 1
+let booleanIsLoggedIn = Boolean(isLoggedIn1)
+
+console.log(booleanIsLoggedIn);
+
+
+
+
