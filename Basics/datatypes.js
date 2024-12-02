@@ -30,6 +30,22 @@ let booleanIsLoggedIn = Boolean(isLoggedIn1)
 
 console.log(booleanIsLoggedIn);
 
+console.log(true + 1 + 2) //1+1+2 = 4
+console.log(1 + 2 + false) //1+2+0 = 3
+
+let x=2
+let y = x++ // postfix
+
+let a=2
+let b = ++a //prefix
+
+console.log(`x:${x} y:${y} `); //x:3 y:2 
+console.log(`a:${a} b:${b}`); //a:3 b:3
+
+console.log("2" == 2); //true
+console.log("2" === 2) //false. It checks with datatypes
+
+
 
 
 
