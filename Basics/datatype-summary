@@ -1,0 +1,23 @@
+//primitive type
+
+// 7 types : string, number, boolean, null, undefined, symbol, BigInt
+
+//JavaScript is a dynamic language, meaning that variables can hold different 
+//types of values during runtime
+
+
+//Reference (Non Primitive) type
+
+//array, Objects, Functions
+
+const name = ["a", "b"];
+
+let oneObj = {
+    name: "Salony",
+    age: 22
+}
+
+let myfunction = function(){
+    console.log("hello")
+}
+
